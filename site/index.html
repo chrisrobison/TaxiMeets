@@ -17,6 +17,25 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<!-- color css -->
 	<link rel="stylesheet" href="css/colors.css">
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1061177737618451',
+          cookie     : true,
+          xfbml      : true,
+          version    : 'v8.0'
+        });
+        FB.AppEvents.logPageView();   
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 </head>
 <body>
 	<!-- Loader -->
@@ -41,19 +60,17 @@
 								<div class="select-country">
 									<select class="nice-select">
 										<option value="0">English</option>
-										<option value="1">Hindi</option>
 									</select>
 								</div>
 								<div class="select-inr">
 									<select class="nice-select">
 										<option value="0">USD</option>
-										<option value="1">INR</option>
 									</select>
 								</div>
 							</div>
 							<div class="right-nav">
 								<span class="top-nav-signup_ligin"><a href="#">SignUp</a> / <a href="#">Login</a></span>
-								<a href="#" class="support-num">Support Number : +1 (123 ) 456 789</a>
+								<a href="#" class="support-num">Support Number: (415) 300-0180</a>
 							</div>
 						</div>
 					</div>
@@ -65,7 +82,7 @@
 					<div class="row no-gutters">
 						<div class="col-lg-12">
 							<div class="logo">
-								<a href="home.html"><img src="images/logo2.png" alt="logo" class="img-responsive"></a>
+								<a href="home.html"><img src="images/logo2.png?x=1" alt="logo" class="img-responsive"></a>
 							</div>
 							<a href="#" class="nav-opener"><i class="fa fa-bars"></i></a>
 							<div class="nav-block">
@@ -78,8 +95,8 @@
 												<li><a href="index3.html">Home 3</a></li>
 											</ul>
 										</li>
-										<li><a href="search_girls.html">Girls</a></li>
-										<li><a href="search_girls.html">Boys</a></li>
+										<li><a href="search_girls.html">Women</a></li>
+										<li><a href="search_girls.html">Men</a></li>
 										<li><a href="online_search_result.html">Online Users</a></li>
 										<li><a href="online_search_country.html">Countries</a></li>
 										<li><a href="search_by_map.html">All World</a></li>
@@ -106,10 +123,10 @@
 				    			<div class="col-lg-7 col-md-7">
 				    				<div class="slider-txt">
 				    					<div class="new-block cover-block">
-				    						<h1 class="" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight"><span>100% Free</span> Online Dating</h1>
+				    						<h1 class="" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight"><span>100% Safe</span> Online Dating</h1>
 				    					</div><!-- cover-block -->
 				    					<div class="new-block cover-block">
-				    						<p data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutRight">Connecting singles across the world to their ideal partner</p>
+				    						<p data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutRight">Take a ride to discover your ideal partner</p>
 				    					</div><!-- cover-block -->
 				    					<div class="new-block cover-block">
 				    						<div class="btn-cover">
@@ -137,10 +154,10 @@
 				    			<div class="col-lg-7 col-md-7">
 				    				<div class="slider-txt">
 				    					<div class="new-block cover-block">
-				    						<h1 class="" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight"><span>100% Free</span> Online Dating</h1>
+				    						<h1 class="" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight"><span>SAFE</span> First Meeting</h1>
 				    					</div><!-- cover-block -->
 				    					<div class="new-block cover-block">
-				    						<p data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutRight">Connecting singles across the world to their ideal partner</p>
+				    						<p data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutRight">Connecting singles with a ride around the block</p>
 				    					</div><!-- cover-block -->
 				    					<div class="new-block cover-block">
 				    						<div class="btn-cover">
@@ -168,10 +185,10 @@
 				    			<div class="col-lg-7 col-md-7">
 				    				<div class="slider-txt">
 				    					<div class="new-block cover-block">
-				    						<h1 class="" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight"><span>100% Free</span> Online Dating</h1>
+				    						<h1 class="" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutRight"><span>Chaperoned</span> First Date</h1>
 				    					</div><!-- cover-block -->
 				    					<div class="new-block cover-block">
-				    						<p data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutRight">Connecting singles across the world to their ideal partner</p>
+				    						<p data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutRight">Share a ride, start a relationship</p>
 				    					</div><!-- cover-block -->
 				    					<div class="new-block cover-block">
 				    						<div class="btn-cover">
@@ -235,11 +252,11 @@
 				    							</div>
 			    							</div>
 			    							<div class="form-group">
-			    								<a href="#" class="c-btn bubbly-button btn1">Take a Chance</a>
+			    								<a href="#" class="c-btn bubbly-button btn1">Let's Ride!</a>
 			    							</div>
 			    							<div class="form-group">
-			    								<a href="#" class="c-btn btn-fb"><i class="flaticon-social-facebook-circular-button"></i> Sign In</a>
-			    								<a href="#" class="c-btn btn-gplus"><img src="images/gpluse.png" alt=""> <span>Sign In</span></a>
+			    								<a href="#" onclick='return fb_login()' class="c-btn btn-fb"><i class="flaticon-social-facebook-circular-button"></i> Sign In</a>
+			    								<a href="#" onclick='return google_login()' class="c-btn btn-gplus"><img src="images/gpluse.png" alt=""> <span>Sign In</span></a>
 			    							</div>
 			    						</form>
 			    					</div>
@@ -259,7 +276,7 @@
 						<div class="title2">
 							<h2 class="fz35">: Process at TaxiMeets :</h2>
 							<div class="clearfix"></div>
-							<p class="fz20">Aliquam a neque tortor. Donec iaculis auctor turpis. Eporttitor<br> mattis ullamcorper urna. Cras quis elementum</p>
+							<p class="fz20">Discover your perfect partner safely by making your first meetup with TaxiMeets. </p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6">
@@ -370,8 +387,8 @@
 					<div class="col-lg-12">
 						<div class="filter-nav">
 						  <button class="btn btn1 filter-1" data-filter="all">All</button>
-						  <button class="btn btn1 filter-1" data-filter=".category-1">New Girl Member</button>
-						  <button class="btn btn1 filter-1 active" data-filter=".category-2">New Boy Member</button>
+						  <button class="btn btn1 filter-1" data-filter=".category-1">New Women</button>
+						  <button class="btn btn1 filter-1 active" data-filter=".category-2">New Men</button>
 						 </div>
 					</div>
 				</div>
@@ -646,7 +663,7 @@
 							<div class="title2">
 								<h2 class="clr1 fz35">Subscribe Newsleter</h2>
 								<div class="clearfix"></div>
-								<p class="fz20"> Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+								<p class="fz20"> Subscribe to our newsletter to receive news, updates, tips and recommendations.</p>
 							</div>
 							<div class="form-group">
 								<input type="text" class="form-control" placeholder="Email Address">
@@ -658,8 +675,8 @@
 						<div class="footer-nav">
 							<ul class="list-unstyled">
 								<li><a href="home.html">Home</a></li>
-								<li><a href="search_girls.html">Girls</a></li>
-								<li><a href="search_girls.html">Boys</a></li>
+								<li><a href="search_girls.html">Women</a></li>
+								<li><a href="search_girls.html">Men</a></li>
 								<li><a href="#">Online Users</a></li>
 								<li><a href="online_search_country.html">Countries</a></li>
 								<li><a href="search_by_map.html">All World</a></li>
